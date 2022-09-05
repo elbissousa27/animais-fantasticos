@@ -68,10 +68,6 @@ function initScrollSuave(){
 
     linksInternos.forEach((link) => {
         link.addEventListener('click', scrollToSection);
-    })
+    });
 }
-
-initScrollSuave();
-
-
-
+initScrollSuave()
